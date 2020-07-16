@@ -6,108 +6,143 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
   StatusBar,
+  ImageBackground,
+  TouchableOpacity,
+  Alert,
 } from 'react-native';
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
+import Geolocation from '@react-native-community/geolocation';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+Icon.loadFont();
 
 const App: () => React$Node = () => {
+  const [hasPhoto, setHasPhoto] = useState(false);
+  const [hasDescription, setHasDescription] = useState(false);
+  const [hasLocation, setHasLocation] = useState(false);
+  const [location, setLocation] = useState();
+
+  const background = {uri: 'https://i.imgur.com/lIirgdw.jpg'};
+
+  Geolocation.getCurrentPosition(
+    (position) => {
+      const initialPosition = JSON.stringify(position);
+      setLocation({initialPosition});
+    },
+    (error) => Alert.alert('Error', JSON.stringify(error)),
+    {enableHighAccuracy: true, timeout: 20000, maximumAge: 1000},
+  );
+
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
+    <ImageBackground source={background} style={styles.background}>
+      <View style={styles.container}>
+        <StatusBar barStyle="dark-content" />
+        <SafeAreaView>
+          <View style={styles.sectionContainer}>
+            <View style={styles.sectionItem}>
+              <TouchableOpacity
+                style={styles.stepButton}
+                onPress={() => {
+                  setHasPhoto(true);
+                  Alert.alert('Usklikaj pressed');
+                }}>
+                <Icon name="camera" size={32} color="white" />
+                <Text style={styles.sectionTitle}>Uslikaj</Text>
+                {hasPhoto && <Icon name="check" size={36} color="white" />}
+              </TouchableOpacity>
             </View>
-          )}
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+            <View style={styles.sectionItem}>
+              <TouchableOpacity
+                style={styles.stepButton}
+                onPress={() => {
+                  setHasDescription(true);
+                  Alert.alert('Opisi pressed');
+                }}>
+                <Icon name="pencil" size={36} color="white" />
+                <Text style={styles.sectionTitle}>Opiši</Text>
+                {hasDescription && <Icon name="check" size={36} color="white" />}
+              </TouchableOpacity>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
+            <View style={styles.sectionItem}>
+              <TouchableOpacity
+                style={styles.stepButton}
+                onPress={() => {
+                  setHasLocation(true);
+                  Alert.alert('Lociraj pressed');
+                }}>
+                <Icon name="map-marker" size={42} color="white" />
+                <Text style={styles.sectionTitle}>Lociraj</Text>
+                {hasLocation && <Icon name="check" size={36} color="white" />}
+              </TouchableOpacity>
+              <Text>{JSON.stringify(location)}</Text>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
           </View>
-        </ScrollView>
-      </SafeAreaView>
-    </>
+          <View style={styles.bottom}>
+            <TouchableOpacity
+              disabled={!(hasPhoto && hasDescription && hasLocation)}
+              style={styles.loginScreenButton}
+              onPress={() => Alert.alert('Send Button pressed')}
+              underlayColor="#fff">
+              <Text style={styles.loginText}>Pošalji</Text>
+            </TouchableOpacity>
+          </View>
+        </SafeAreaView>
+      </View>
+    </ImageBackground>
   );
 };
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
+  container: {
+    flex: 1,
+    alignItems: 'center',
   },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
+  background: {
+    flex: 1,
+    resizeMode: 'cover',
   },
   sectionContainer: {
-    marginTop: 32,
     paddingHorizontal: 24,
   },
+  stepButton: {
+    paddingVertical: 15,
+    paddingHorizontal: 10,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  sectionItem: {
+    marginTop: 48,
+  },
   sectionTitle: {
+    marginLeft: 10,
+    marginRight: 10,
+    color: 'white',
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
+  loginScreenButton: {
+    paddingRight: 100,
+    paddingLeft: 100,
+    paddingTop: 10,
+    paddingBottom: 10,
+    backgroundColor: '#29733b',
   },
-  highlight: {
-    fontWeight: '700',
+  loginText: {
+    fontSize: 24,
+    color: '#fff',
+    textAlign: 'center',
   },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
+  bottom: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    marginBottom: 36,
   },
 });
 
