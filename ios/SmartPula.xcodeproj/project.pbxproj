@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SampleAppTests.m */; };
+		00E356F31AD99517003FC87E /* SmartPulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartPulaTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SampleAppTests.m */; };
-		3FCAFC098DA41109C5E7CCDD /* libPods-SampleApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD3E95F827C352B6D75E937 /* libPods-SampleApp-tvOS.a */; };
-		4A993A824DCCDEEEE658D08C /* libPods-SampleApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA010C72427C6B023F5CBFF8 /* libPods-SampleApp-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* SmartPulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmartPulaTests.m */; };
+		3FCAFC098DA41109C5E7CCDD /* libPods-SmartPula-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD3E95F827C352B6D75E937 /* libPods-SmartPula-tvOS.a */; };
+		4A993A824DCCDEEEE658D08C /* libPods-SmartPula-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA010C72427C6B023F5CBFF8 /* libPods-SmartPula-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AD90D58FAA182A243433792C /* libPods-SampleApp-SampleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 162007AEF81263F7E7193795 /* libPods-SampleApp-SampleAppTests.a */; };
-		E78A80E26D59236E265D4E7D /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E48A679D7B04EA5A91C99AFE /* libPods-SampleApp.a */; };
+		AD90D58FAA182A243433792C /* libPods-SmartPula-SmartPulaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 162007AEF81263F7E7193795 /* libPods-SmartPula-SmartPulaTests.a */; };
+		E78A80E26D59236E265D4E7D /* libPods-SmartPula.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E48A679D7B04EA5A91C99AFE /* libPods-SmartPula.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = SampleApp;
+			remoteInfo = SmartPula;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "SampleApp-tvOS";
+			remoteInfo = "SmartPula-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SmartPulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* SampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SampleApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SampleApp/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SampleApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SampleApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SampleApp/main.m; sourceTree = "<group>"; };
-		162007AEF81263F7E7193795 /* libPods-SampleApp-SampleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp-SampleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		191AFEA702E3AC3033AE7DC5 /* Pods-SampleApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-tvOSTests/Pods-SampleApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		1AD3E95F827C352B6D75E937 /* libPods-SampleApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F312BDC47930753BEB95995 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* SampleApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SampleApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* SampleApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SampleApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		31DD5A7CD95D79947316B002 /* Pods-SampleApp-SampleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A16A888A0944F8C30F51A8E /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
-		72C7B013731385654A30B357 /* Pods-SampleApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-tvOS/Pods-SampleApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SampleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82253419017A4BF1BCB74A0D /* Pods-SampleApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-tvOS/Pods-SampleApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		88F3979C2D13D22322985167 /* Pods-SampleApp-SampleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-SampleAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		E48A679D7B04EA5A91C99AFE /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA010C72427C6B023F5CBFF8 /* libPods-SampleApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* SmartPulaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartPulaTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SmartPula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SmartPula/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SmartPula/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SmartPula/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SmartPula/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SmartPula/main.m; sourceTree = "<group>"; };
+		162007AEF81263F7E7193795 /* libPods-SmartPula-SmartPulaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartPula-SmartPulaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		191AFEA702E3AC3033AE7DC5 /* Pods-SmartPula-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SmartPula-tvOSTests/Pods-SmartPula-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AD3E95F827C352B6D75E937 /* libPods-SmartPula-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartPula-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F312BDC47930753BEB95995 /* Pods-SmartPula.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula.release.xcconfig"; path = "Target Support Files/Pods-SmartPula/Pods-SmartPula.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* SmartPula-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartPula-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* SmartPula-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartPula-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DD5A7CD95D79947316B002 /* Pods-SmartPula-SmartPulaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-SmartPulaTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartPula-SmartPulaTests/Pods-SmartPula-SmartPulaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A16A888A0944F8C30F51A8E /* Pods-SmartPula.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula.debug.xcconfig"; path = "Target Support Files/Pods-SmartPula/Pods-SmartPula.debug.xcconfig"; sourceTree = "<group>"; };
+		72C7B013731385654A30B357 /* Pods-SmartPula-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SmartPula-tvOS/Pods-SmartPula-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SmartPula/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82253419017A4BF1BCB74A0D /* Pods-SmartPula-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SmartPula-tvOS/Pods-SmartPula-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		88F3979C2D13D22322985167 /* Pods-SmartPula-SmartPulaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-SmartPulaTests.release.xcconfig"; path = "Target Support Files/Pods-SmartPula-SmartPulaTests/Pods-SmartPula-SmartPulaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E48A679D7B04EA5A91C99AFE /* libPods-SmartPula.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartPula.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA010C72427C6B023F5CBFF8 /* libPods-SmartPula-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartPula-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F55CEC48211A3F4C3099B8ED /* Pods-SampleApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp-tvOSTests/Pods-SampleApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F55CEC48211A3F4C3099B8ED /* Pods-SmartPula-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartPula-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SmartPula-tvOSTests/Pods-SmartPula-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD90D58FAA182A243433792C /* libPods-SampleApp-SampleAppTests.a in Frameworks */,
+				AD90D58FAA182A243433792C /* libPods-SmartPula-SmartPulaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78A80E26D59236E265D4E7D /* libPods-SampleApp.a in Frameworks */,
+				E78A80E26D59236E265D4E7D /* libPods-SmartPula.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCAFC098DA41109C5E7CCDD /* libPods-SampleApp-tvOS.a in Frameworks */,
+				3FCAFC098DA41109C5E7CCDD /* libPods-SmartPula-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A993A824DCCDEEEE658D08C /* libPods-SampleApp-tvOSTests.a in Frameworks */,
+				4A993A824DCCDEEEE658D08C /* libPods-SmartPula-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* SampleAppTests */ = {
+		00E356EF1AD99517003FC87E /* SmartPulaTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* SampleAppTests.m */,
+				00E356F21AD99517003FC87E /* SmartPulaTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = SampleAppTests;
+			path = SmartPulaTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* SampleApp */ = {
+		13B07FAE1A68108700A75B9A /* SmartPula */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = SampleApp;
+			name = SmartPula;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				E48A679D7B04EA5A91C99AFE /* libPods-SampleApp.a */,
-				162007AEF81263F7E7193795 /* libPods-SampleApp-SampleAppTests.a */,
-				1AD3E95F827C352B6D75E937 /* libPods-SampleApp-tvOS.a */,
-				EA010C72427C6B023F5CBFF8 /* libPods-SampleApp-tvOSTests.a */,
+				E48A679D7B04EA5A91C99AFE /* libPods-SmartPula.a */,
+				162007AEF81263F7E7193795 /* libPods-SmartPula-SmartPulaTests.a */,
+				1AD3E95F827C352B6D75E937 /* libPods-SmartPula-tvOS.a */,
+				EA010C72427C6B023F5CBFF8 /* libPods-SmartPula-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,14 +160,14 @@
 		4390A91BF32BD576EB3E344E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A16A888A0944F8C30F51A8E /* Pods-SampleApp.debug.xcconfig */,
-				1F312BDC47930753BEB95995 /* Pods-SampleApp.release.xcconfig */,
-				31DD5A7CD95D79947316B002 /* Pods-SampleApp-SampleAppTests.debug.xcconfig */,
-				88F3979C2D13D22322985167 /* Pods-SampleApp-SampleAppTests.release.xcconfig */,
-				82253419017A4BF1BCB74A0D /* Pods-SampleApp-tvOS.debug.xcconfig */,
-				72C7B013731385654A30B357 /* Pods-SampleApp-tvOS.release.xcconfig */,
-				F55CEC48211A3F4C3099B8ED /* Pods-SampleApp-tvOSTests.debug.xcconfig */,
-				191AFEA702E3AC3033AE7DC5 /* Pods-SampleApp-tvOSTests.release.xcconfig */,
+				3A16A888A0944F8C30F51A8E /* Pods-SmartPula.debug.xcconfig */,
+				1F312BDC47930753BEB95995 /* Pods-SmartPula.release.xcconfig */,
+				31DD5A7CD95D79947316B002 /* Pods-SmartPula-SmartPulaTests.debug.xcconfig */,
+				88F3979C2D13D22322985167 /* Pods-SmartPula-SmartPulaTests.release.xcconfig */,
+				82253419017A4BF1BCB74A0D /* Pods-SmartPula-tvOS.debug.xcconfig */,
+				72C7B013731385654A30B357 /* Pods-SmartPula-tvOS.release.xcconfig */,
+				F55CEC48211A3F4C3099B8ED /* Pods-SmartPula-tvOSTests.debug.xcconfig */,
+				191AFEA702E3AC3033AE7DC5 /* Pods-SmartPula-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -183,9 +183,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* SampleApp */,
+				13B07FAE1A68108700A75B9A /* SmartPula */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* SampleAppTests */,
+				00E356EF1AD99517003FC87E /* SmartPulaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4390A91BF32BD576EB3E344E /* Pods */,
@@ -199,10 +199,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* SampleApp.app */,
-				00E356EE1AD99517003FC87E /* SampleAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* SampleApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* SampleApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* SmartPula.app */,
+				00E356EE1AD99517003FC87E /* SmartPulaTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* SmartPula-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* SmartPula-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* SampleAppTests */ = {
+		00E356ED1AD99517003FC87E /* SmartPulaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SampleAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SmartPulaTests" */;
 			buildPhases = (
 				3B6E252C204C11B581031DE9 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -225,14 +225,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = SampleAppTests;
-			productName = SampleAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* SampleAppTests.xctest */;
+			name = SmartPulaTests;
+			productName = SmartPulaTests;
+			productReference = 00E356EE1AD99517003FC87E /* SmartPulaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* SampleApp */ = {
+		13B07F861A680F5B00A75B9A /* SmartPula */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SampleApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartPula" */;
 			buildPhases = (
 				DB8D20B00FDB0DD01A819469 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -246,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = SampleApp;
-			productName = SampleApp;
-			productReference = 13B07F961A680F5B00A75B9A /* SampleApp.app */;
+			name = SmartPula;
+			productName = SmartPula;
+			productReference = 13B07F961A680F5B00A75B9A /* SmartPula.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* SampleApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* SmartPula-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SampleApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartPula-tvOS" */;
 			buildPhases = (
 				B93741E3D4332BF8CB0FAE58 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = "SampleApp-tvOS";
-			productName = "SampleApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* SampleApp-tvOS.app */;
+			name = "SmartPula-tvOS";
+			productName = "SmartPula-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* SmartPula-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* SampleApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* SmartPula-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SampleApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartPula-tvOSTests" */;
 			buildPhases = (
 				2A91912F6D001A6AC5F6A02C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -285,9 +285,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "SampleApp-tvOSTests";
-			productName = "SampleApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* SampleApp-tvOSTests.xctest */;
+			name = "SmartPula-tvOSTests";
+			productName = "SmartPula-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* SmartPula-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SampleApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SmartPula" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -329,10 +329,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* SampleApp */,
-				00E356ED1AD99517003FC87E /* SampleAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* SampleApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* SampleApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* SmartPula */,
+				00E356ED1AD99517003FC87E /* SmartPulaTests */,
+				2D02E47A1E0B4A5D006451C7 /* SmartPula-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* SmartPula-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,7 +401,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SmartPula-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,7 +437,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleApp-SampleAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SmartPula-SmartPulaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,7 +450,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SmartPula/Pods-SmartPula-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -491,7 +491,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartPula/Pods-SmartPula-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A97E621AD4DFC7826057E053 /* [CP] Copy Pods Resources */ = {
@@ -500,7 +500,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SmartPula-SmartPulaTests/Pods-SmartPula-SmartPulaTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -541,7 +541,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApp-SampleAppTests/Pods-SampleApp-SampleAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartPula-SmartPulaTests/Pods-SmartPula-SmartPulaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B93741E3D4332BF8CB0FAE58 /* [CP] Check Pods Manifest.lock */ = {
@@ -559,7 +559,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SmartPula-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,7 +581,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SmartPula-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -633,7 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* SampleAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SmartPulaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +659,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* SampleAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* SmartPulaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,12 +668,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* SampleApp */;
+			target = 13B07F861A680F5B00A75B9A /* SmartPula */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* SampleApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* SmartPula-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -681,14 +681,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31DD5A7CD95D79947316B002 /* Pods-SampleApp-SampleAppTests.debug.xcconfig */;
+			baseConfigurationReference = 31DD5A7CD95D79947316B002 /* Pods-SmartPula-SmartPulaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SampleAppTests/Info.plist;
+				INFOPLIST_FILE = SmartPulaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -698,17 +698,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPula.app/SmartPula";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F3979C2D13D22322985167 /* Pods-SampleApp-SampleAppTests.release.xcconfig */;
+			baseConfigurationReference = 88F3979C2D13D22322985167 /* Pods-SmartPula-SmartPulaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = SampleAppTests/Info.plist;
+				INFOPLIST_FILE = SmartPulaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -718,19 +718,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp.app/SampleApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPula.app/SmartPula";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A16A888A0944F8C30F51A8E /* Pods-SampleApp.debug.xcconfig */;
+			baseConfigurationReference = 3A16A888A0944F8C30F51A8E /* Pods-SmartPula.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = SampleApp/Info.plist;
+				INFOPLIST_FILE = SmartPula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -738,7 +738,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = SmartPula;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -747,12 +747,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F312BDC47930753BEB95995 /* Pods-SampleApp.release.xcconfig */;
+			baseConfigurationReference = 1F312BDC47930753BEB95995 /* Pods-SmartPula.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = SampleApp/Info.plist;
+				INFOPLIST_FILE = SmartPula/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -760,7 +760,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = SampleApp;
+				PRODUCT_NAME = SmartPula;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -768,7 +768,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82253419017A4BF1BCB74A0D /* Pods-SampleApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 82253419017A4BF1BCB74A0D /* Pods-SmartPula-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -779,14 +779,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SampleApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "SmartPula-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SampleApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SmartPula-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -796,7 +796,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72C7B013731385654A30B357 /* Pods-SampleApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 72C7B013731385654A30B357 /* Pods-SmartPula-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -807,14 +807,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SampleApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "SmartPula-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SampleApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SmartPula-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -824,7 +824,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F55CEC48211A3F4C3099B8ED /* Pods-SampleApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = F55CEC48211A3F4C3099B8ED /* Pods-SmartPula-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -834,24 +834,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SampleApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SmartPula-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SampleApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SmartPula-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp-tvOS.app/SampleApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPula-tvOS.app/SmartPula-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 191AFEA702E3AC3033AE7DC5 /* Pods-SampleApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 191AFEA702E3AC3033AE7DC5 /* Pods-SmartPula-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -861,17 +861,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "SampleApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SmartPula-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SampleApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.SmartPula-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleApp-tvOS.app/SampleApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPula-tvOS.app/SmartPula-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -992,7 +992,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SmartPulaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1001,7 +1001,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SampleApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SmartPula" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1010,7 +1010,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SampleApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartPula-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1019,7 +1019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SampleApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SmartPula-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1028,7 +1028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SampleApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SmartPula" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

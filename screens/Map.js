@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Smart Pula
  * https://github.com/facebook/react-native
  *
  * @format
