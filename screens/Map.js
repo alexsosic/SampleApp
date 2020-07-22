@@ -36,10 +36,11 @@ function MapScreen({navigation}) {
             initialPosition.longitude !== 0
           ) {
             dispatch(changeLocation(initialPosition));
-            mapRef.animateToRegion({
-              ...initialPosition,
-              latitudeDelta: 0.04,
-              longitudeDelta: 0.05,
+            mapRef.animateToRegion(
+              {
+                ...initialPosition,
+                latitudeDelta: 0.04,
+                longitudeDelta: 0.05,
               },
               500,
             );
@@ -56,8 +57,7 @@ function MapScreen({navigation}) {
       style={{...StyleSheet.absoluteFillObject}}
       ref={(ref) => setMapRef(ref)}
       showsUserLocation={true}
-      initialRegion={initialRegion}
-      onMapReady={() => console.log(mapRef)}>
+      initialRegion={initialRegion}>
       <Marker
         draggable
         coordinate={location}

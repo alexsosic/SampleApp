@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -18,6 +18,11 @@ import {
   Alert,
 } from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
+import 'react-native-get-random-values';
+import {uuid, isUuid} from 'uuidv4';
+import AsyncStorage from '@react-native-community/async-storage';
+
+import {changeAppId} from '../actions/appId';
 import {changeImage} from '../actions/image';
 import ImagePicker from 'react-native-image-picker';
 import Icon from 'react-native-vector-icons/dist/FontAwesome';
@@ -28,7 +33,23 @@ function HomeScreen({navigation}) {
   const fileUri = useSelector((state) => state.image.file);
   const description = useSelector((state) => state.description.text);
   const location = useSelector((state) => state.location);
+  // const appId = useSelector((state) => state.appId.id);
   const dispatch = useDispatch();
+
+  const uuidValue = async () => {
+    try {
+      const value = await AsyncStorage.getItem('@uuid');
+      if (!isUuid(value)) {
+        const newId = uuid();
+        await AsyncStorage.setItem('@uuid', newId);
+        return newId;
+      }
+      return value;
+    } catch (e) {
+      console.log('AsyncStorage getData error: ', e);
+      return null;
+    }
+  };
 
   const chooseImage = () => {
     let options = {
@@ -55,6 +76,10 @@ function HomeScreen({navigation}) {
   };
 
   const background = {uri: 'https://i.imgur.com/lIirgdw.jpg'};
+
+  useEffect(() => {
+    uuidValue().then((id) => dispatch(changeAppId(id)));
+  }, [dispatch]);
 
   return (
     <ImageBackground source={background} style={styles.background}>
