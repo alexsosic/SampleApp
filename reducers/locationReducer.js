@@ -10,8 +10,8 @@ const locationReducer = (state = initialState, action) => {
     case LOCATION_CHANGE:
       return {
         ...state,
-        latitude: action.payload.latitude,
-        longitude: action.payload.longitude,
+        latitude: Number(action.payload.latitude.toFixed(5)),
+        longitude: Number(action.payload.longitude.toFixed(5)),
       };
     default:
       return state;

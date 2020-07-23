@@ -7,7 +7,7 @@
  */
 
 import React, {useState, useEffect} from 'react';
-import {Alert, StyleSheet} from 'react-native';
+import {Alert, StyleSheet, Text} from 'react-native';
 import MapView, {Marker} from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
 import {useDispatch, useSelector} from 'react-redux';
@@ -58,6 +58,7 @@ function MapScreen({navigation}) {
       ref={(ref) => setMapRef(ref)}
       showsUserLocation={true}
       initialRegion={initialRegion}>
+      <Text>{JSON.stringify(location)}</Text>
       <Marker
         draggable
         coordinate={location}

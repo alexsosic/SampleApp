@@ -4,8 +4,8 @@ start:
 
 .PHONY: cleanup
 cleanup:
-	rm -rf /tmp/metro-*
 	watchman watch-del-all
+	rm -rf /tmp/metro-*
 	rm -r node_modules/
 	yarn install
 	npx pod-install

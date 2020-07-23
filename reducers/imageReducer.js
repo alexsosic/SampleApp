@@ -1,7 +1,8 @@
 import {IMAGE_CHANGE} from '../constants';
 
 const initialState = {
-  file: '',
+  data: '',
+  uri: '',
 };
 
 const imageReducer = (state = initialState, action) => {
@@ -9,7 +10,8 @@ const imageReducer = (state = initialState, action) => {
     case IMAGE_CHANGE:
       return {
         ...state,
-        file: action.payload,
+        data: action.payload.data,
+        uri: action.payload.uri,
       };
     default:
       return state;

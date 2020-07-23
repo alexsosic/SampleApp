@@ -18,6 +18,7 @@ import {
   Alert,
 } from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
+import md5 from 'md5';
 import 'react-native-get-random-values';
 import {uuid, isUuid} from 'uuidv4';
 import AsyncStorage from '@react-native-community/async-storage';
@@ -30,10 +31,10 @@ import Icon from 'react-native-vector-icons/dist/FontAwesome';
 Icon.loadFont();
 
 function HomeScreen({navigation}) {
-  const fileUri = useSelector((state) => state.image.file);
+  const image = useSelector((state) => state.image);
   const description = useSelector((state) => state.description.text);
   const location = useSelector((state) => state.location);
-  // const appId = useSelector((state) => state.appId.id);
+  const appId = useSelector((state) => state.appId.id);
   const dispatch = useDispatch();
 
   const uuidValue = async () => {
@@ -56,13 +57,16 @@ function HomeScreen({navigation}) {
       title: 'Odaberi sliku',
       cameraType: 'front',
       mediaType: 'photo',
+      quality: 0.6,
+      maxWidth: 2000,
+      maxHeight: 2000,
+      allowsEditing: false,
       storageOptions: {
         skipBackup: true,
         path: 'images',
       },
     };
     ImagePicker.showImagePicker(options, (response) => {
-      console.log('Response = ', response);
       if (response.didCancel) {
         console.log('User cancelled image picker');
       } else if (response.error) {
@@ -70,9 +74,27 @@ function HomeScreen({navigation}) {
       } else if (response.customButton) {
         console.log('User tapped custom button: ', response.customButton);
       } else {
-        dispatch(changeImage(response.uri));
+        dispatch(changeImage(response));
       }
     });
+  };
+
+  const sendReport = () => {
+    const xhr = new XMLHttpRequest();
+    const body = {
+      userid: appId,
+      secure: md5(appId + 'nr4a6uaco58m').toString(),
+      description: description,
+      lat: location.latitude,
+      lng: location.longitude,
+      photo: image.data,
+    };
+    xhr.onload = function () {
+      Alert.alert('Prijava uspješno poslana!');
+      console.log(xhr.responseText);
+    };
+    xhr.open('POST', 'http://www.smartpula.eu/api/reports/');
+    xhr.send(JSON.stringify(body));
   };
 
   const background = {uri: 'https://i.imgur.com/lIirgdw.jpg'};
@@ -95,7 +117,7 @@ function HomeScreen({navigation}) {
                 }}>
                 <Icon name="camera" size={32} color="white" />
                 <Text style={styles.sectionTitle}>Uslikaj</Text>
-                {fileUri !== '' && (
+                {image.uri !== '' && (
                   <Icon name="check" size={36} color="white" />
                 )}
               </TouchableOpacity>
@@ -131,13 +153,13 @@ function HomeScreen({navigation}) {
             <TouchableOpacity
               disabled={
                 !(
-                  fileUri !== '' &&
+                  image.uri !== '' &&
                   description !== '' &&
                   location.latitude !== 0
                 )
               }
               style={styles.postButton}
-              onPress={() => Alert.alert('Send Button pressed')}
+              onPress={() => sendReport()}
               underlayColor="#fff">
               <Text style={styles.postText}>Pošalji</Text>
             </TouchableOpacity>
